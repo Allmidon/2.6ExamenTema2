@@ -1,6 +1,7 @@
 <?php
 // Permitir todas las solicitudes (ajusta en producción)
 header("Access-Control-Allow-Origin: *");
+//Agregar el acceso con post
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Obtener datos del cuerpo de la solicitud POST
