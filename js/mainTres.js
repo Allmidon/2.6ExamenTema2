@@ -11,14 +11,9 @@ function enviarDatos() {
   var paisLowerCase = datos.pais.toLowerCase();
   console.log(paisLowerCase);
 
-  if (paisLowerCase == "malta") {
-    enviarDatosAlPHP("js/insertar.php", datos);
-  } else if (paisLowerCase == "colombia") {
+  if (paisLowerCase == "colombia") {
     enviarDatosAlPHP("js/insertarTres.php", datos);
-  } else if (paisLowerCase == "india") {
-    enviarDatosAlPHP("js/insertarDos.php", datos);
   } else {
-   
     console.log("No existe ese pais en la base de datos.");
   }
 }
