@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Tabla de Información</title>
+  <!-- Agrega los enlaces a los estilos de Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+    /* Estilos adicionales para la tabla y centrado */
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #2c8dee;
+    }
+
+    table {
+      margin-top: 20px;
+    }
+
+    th,
+    td {
+      color: #cccccc;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="text-center mt-4 mb-4">2.6 Examen Tema 2. Diseño de bases de datos distribuidas</h1>
+
+    <table class="table table-dark">
+      <thead>
+        <tr>
+          <th scope="col">IP</th>
+          <th scope="col">País</th>
+          <th scope="col">Continente</th>
+          <th scope="col">Zona Horaria</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td id="ip"></td>
+          <td id="pais"></td>
+          <td id="continente"></td>
+          <td id="zona_horaria"></td>
+        </tr>
+
+        <!-- Puedes agregar más filas con datos de muestra según sea necesario -->
+      </tbody>
+    </table>
+
+  </div>
+  <!-- Agrega los scripts de Bootstrap y jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="js/main.js"> </script>
+
+</body>
+
+</html>
